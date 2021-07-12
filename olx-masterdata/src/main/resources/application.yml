@@ -1,0 +1,17 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: olx-masterdata
+  config:
+    import: configserver:http://localhost:8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
