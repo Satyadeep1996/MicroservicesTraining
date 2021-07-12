@@ -2,11 +2,11 @@
 
 How to run the Project
 
-. Start the Eureka, Config and API Gateway server first
-. In Config server application.yml provide the password for the git repo
-. Create databases 'olx-users', 'olx-masterdata' & olx-advertises' in MySQL
-. Start running the other olx services
-. Check in eureka dashboard that all the clients are registered or not
+* Start the Eureka, Config and API Gateway server first
+* In Config server application.yml provide the password for the git repo
+* Create databases 'olx-users', 'olx-masterdata' & olx-advertises' in MySQL
+* Start running the other olx services
+* Check in eureka dashboard that all the clients are registered or not
 
 API'S
 
